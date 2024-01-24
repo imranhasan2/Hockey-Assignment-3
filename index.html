@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c54cdec6fe.js" crossorigin="anonymous"></script>
+
     <!-- shared style -->
     <script>
         tailwind.config = {
@@ -388,11 +391,11 @@
                     in the world of professional hockey
                 </p>
             </div>
-            <div class=" flex flex-col lg:flex-row p-8 gap-4 border  border-dotted">
-                <div class="w-full h-full object-none">
+            <div class=" flex flex-col lg:flex-row p-8  gap-4 border  border-dotted">
+                <div class="w-full h-auto ">
                     <img src="images/11.png" alt="">
                 </div>
-                <div class="space-y-4">
+                <div class="space-y-3">
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" checked="checked" />
                         <div class="collapse-title text-xl font-medium">
@@ -466,7 +469,7 @@
             </div>
             <div class="flex flex-col lg:flex-row">
 
-                <div class="space-y-6 border border-dotted border-[#1313181A] p-12">
+                <div class="space-y-6 p-12 border border-dotted border-[#1313181A] ">
                     <!-- card-1 -->
                     <div class=" bg-[#BCED6D1A] p-8 pr-40 rounded-2xl shadow-xl">
                         <figure><img class="mb-6" src="images/Group 1171275317.png" alt="Shoes" /></figure>
@@ -500,7 +503,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div >
                     <div class="flex flex-col lg:flex-row gap-6">
                         <div class="">
                             <label class=" w-full max-w-xs">
@@ -546,15 +549,55 @@
                     <button class="bg-[#FF4240] text-white my-12 text-xl font-bold rounded-xl pt-4 pb-4 w-full">Send Message</button>
                 </div>
             </div>
-
+           <div class="text-center my-8  border border-dotted p-8 w-full">
+            <h1 class="text-[#131318] text-2xl mb-8 font-extrabold">Social Media</h1>
+            <div class="flex justify-center items-center space-x-6">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+           </div>
         </section>
-
     </main>
 
-
+<!-- main section end -->
 
 
     <footer>
+        <footer class="footer p-10 bg-[#131318] text-base-content">
+            <nav>
+              <header class="footer-title">Services</header> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Company</header> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Legal</header> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav> 
+            <form>
+              <header class="footer-title">Newsletter</header> 
+              <fieldset class="form-control w-80">
+                <label class="label">
+                  <span class="label-text">Enter your email address</span>
+                </label> 
+                <div class="join">
+                  <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+                  <button class="btn btn-primary join-item">Subscribe</button>
+                </div>
+              </fieldset>
+            </form>
+          </footer>
 
     </footer>
 </body>
